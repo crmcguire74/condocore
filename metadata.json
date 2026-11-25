@@ -1,0 +1,6 @@
+{
+  "name": "CondoCore",
+  "description": "Visual, board-owned building operating system connecting every physical asset, inspection, maintenance event, vendor obligation, financial transaction, and board decision.",
+  "requestFramePermissions": ["camera"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

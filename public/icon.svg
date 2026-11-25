@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="none">
+  <defs>
+    <linearGradient id="cobaltPlate" x1="24" y1="12" x2="488" y2="500" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#2A62F2" />
+      <stop offset="55%" stop-color="#1C4ED8" />
+      <stop offset="100%" stop-color="#112E8E" />
+    </linearGradient>
+    <linearGradient id="ochreKeystone" x1="230" y1="224" x2="294" y2="288" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#F7CF72" />
+      <stop offset="100%" stop-color="#DDA23B" />
+    </linearGradient>
+  </defs>
+
+  <!-- Swiss Architectural Cobalt Monolith Plate -->
+  <rect width="512" height="512" rx="112" fill="url(#cobaltPlate)" />
+  <rect x="14" y="14" width="484" height="484" rx="98" stroke="#FFFFFF" stroke-opacity="0.22" stroke-width="6" />
+
+  <!-- Subtle Architectural Drafting Registration Corners -->
+  <path d="M74 106V74H106" stroke="#F0C05A" stroke-opacity="0.72" stroke-width="8" stroke-linecap="square" />
+  <path d="M406 438H438V406" stroke="#F0C05A" stroke-opacity="0.72" stroke-width="8" stroke-linecap="square" />
+
+  <!-- Outer Building Envelope ("Condo" Plan-View C) -->
+  <path
+    d="M376 172V132C376 125.373 370.627 120 364 120H164L120 164V380C120 386.627 125.373 392 132 392H364C370.627 392 376 386.627 376 380V340"
+    stroke="#FFFFFF"
+    stroke-width="34"
+    stroke-linecap="square"
+    stroke-linejoin="miter"
+  />
+
+  <!-- Inner Structural Core Wall ("Core" Nested Architectural C) -->
+  <path
+    d="M332 204V184H196L180 200V328H332V308"
+    stroke="#BFDBFE"
+    stroke-width="24"
+    stroke-linecap="square"
+    stroke-linejoin="miter"
+  />
+
+  <!-- Central Warm Ochre Architectural Keystone Core -->
+  <rect x="234" y="226" width="58" height="60" rx="8" fill="url(#ochreKeystone)" />
+
+  <!-- East Threshold Architectural Axis Line -->
+  <line x1="328" y1="256" x2="398" y2="256" stroke="url(#ochreKeystone)" stroke-width="18" stroke-linecap="square" />
+</svg>
